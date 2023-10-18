@@ -29,10 +29,10 @@ const App = () => {
         todoList.map((item, index) => (
           <div>
             <ul>
-              <li> 
+              <div> 
                 {item} 
                 <button onClick={() => deleteTodo(index)}> Delete </button>
-              </li>
+              </div>
             </ul>  
           </div>
         ))
